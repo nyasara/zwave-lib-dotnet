@@ -132,7 +132,15 @@ namespace ZWaveLib
         DoorLockReport = 0x03,
         DoorLockConfigurationSet = 0x04,
         DoorLockConfigurationGet = 0x05,
-        DoorLockConfigurationReport = 0x06
+        DoorLockConfigurationReport = 0x06,        
+        //
+        SwitchColorCapabilityGet = 0x01,
+        SwitchColorCapabilityReport = 0x02,
+        SwitchColorGet = 0x03,
+        SwitchColorReport = 0x04,
+        SwitchColorSet = 0x05,
+        SwitchColorStartCapabilityLevelChange = 0x06,
+        SwitchColorStopStateChange = 0x07
     }
 
 }

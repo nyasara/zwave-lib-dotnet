@@ -40,6 +40,8 @@ namespace ZWaveLib
         //
         Meter = 0x32,
         //
+        SwitchColor = 0x33,
+        //
         ThermostatHeating = 0x38,
         ThermostatMode = 0x40,
         ThermostatOperatingState = 0x42,

@@ -57,6 +57,16 @@ namespace ZWaveLib.Values
         Fahrenheit
     }
 
+    public enum ZWaveSwitchColorNumber : int
+    {
+        Unknown=-1,
+        WarmWhite = 0,
+        ColdWhite = 1,
+        Red = 2,
+        Green = 3,
+        Blue = 4
+    }
+
     public class SensorValue
     {
         public EventParameter EventType = EventParameter.SensorGeneric;
